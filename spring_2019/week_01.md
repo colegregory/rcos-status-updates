@@ -1,24 +1,15 @@
 ## Last Week's Accomplishments
 
-> In this section, you can write about what you accomplished in the previous week.
-
-> This past week, I was able to implement the the dialog box for creating a new user in the front end. I \
-> learned how to send requests in JavaScript to the backend API.
+This past week, I discussed the future plan for YACS Admin with our team lead Ada. We decided to get rid of YACS Admin as a separate project, since it hasn't really had any active development for a semester. Also, YACS API has been updated so that it can handle essentially all of what YACS Admin was designed to do, i.e. delete, update, add various courses. It would be much simpler to just use YACS API for these operations instead of an additional admin program. YACS Admin didn't actually add that much functionality, and was mostly utilizing the API itself. The YACS Admin UI could be reused, however, and I have been copying the basic frontend over to YACS web. This way, users can directly modify data directly in YACS. 
 
 ## This Week's Plan
 
-> In this section, you can write about what you have planned for next week.
-
-> After my accomplishments from last week, I plan to add accessibility features to the user creation dialog box. \
-> I also plan on attending the git workshop this week.
+This week I plan on implementing a basic edit button for courses in the feature/admin branch. This will link to a detail view of courses with input fields allowing a user to edit course data and save their changes. I think this will be pretty simple to implement as the detail view can be directly taken from YACS Admin. 
 
 ## Anything Blocking?
 
-> In this section, you can write about any blockers that you are having trouble in the project.
-
-> I don't know how to test the accessibility features I am going to be implementing this week, so i am going to \
-> ask my mentors if they have any suggestions.
+I was having some trouble using Docker and actually running YACS. Previously, with YACS Admin, I only had to use Angular. I got everything working eventually with some help, though, so I don't think it should be a blocker in the future.
 
 ## Notes
 
-> This is an optional section for any sort of information that does not fall under any of the other categories.
+None
